@@ -33,6 +33,7 @@ public class Lec05EventListenerTest extends BaseTest {
         sleep(11000);
     }
 
+    //test deleted event test
     @Test
     public void deletedEventTest(){
         RBucketReactive<String> bucket = this.client.getBucket("user:1:name", StringCodec.INSTANCE);
